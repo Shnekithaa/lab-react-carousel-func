@@ -1,1 +1,36 @@
-/* write down the css for Carousel in this file */
+/* write your carousel css in this file */
+#carousel{
+    width: 60%;
+    height: 700px;
+}
+#inner-carousel{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#left-button, #right-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5%;
+    background-color: black;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.334);
+}
+#center-text{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-size: 100px;
+    color: white;
+}
+p{
+    font-size: 50px;
+    color: white;
+}
